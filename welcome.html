@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connect Your TV</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:Arial,Helvetica,sans-serif
+}
+
+body{
+  background:#f3f5f7;
+  color:#1a1a1a;
+  line-height:1.7;
+}
+
+/* Top image */
+.top-image{
+  text-align:center;
+}
+.top-image img{
+  width:85%;
+  max-width:950px;
+  height:200px;
+  border-radius:30px;
+}
+
+/* Header */
+.header{
+  background:#111820;
+  color:#fff;
+  padding:18px 20px;
+  font-size:40px;
+  font-weight:600;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+/* Wrapper */
+.wrapper{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+/* White message box */
+.success-message{
+  background:#ffffff;
+  text-align:center;
+  padding:35px 25px;
+  border-radius:8px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.success-message h2{
+  font-size:22px;
+  font-weight:700;
+  color:#222;
+}
+
+.success-message h3{
+  font-size:22px;
+  color:blue;
+  margin-top:15px;
+}
+
+/* Call button */
+.call-btn{
+  display:inline-block;
+  background:#4b22ff;
+  color:#ffffff;
+  text-decoration:none;
+  font-size:20px;
+  font-weight:700;
+  letter-spacing:1px;
+  padding:14px 26px;
+  border-radius:14px;
+  box-shadow:0 8px 20px rgba(75,34,255,0.35);
+  transition:all .25s ease;
+  margin-top:25px;
+}
+
+.call-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 26px rgba(75,34,255,0.45);
+}
+
+.call-btn:active{
+  transform:translateY(0);
+  box-shadow:0 6px 14px rgba(75,34,255,0.3);
+}
+
+/* ✅ Responsive rules */
+@media (max-width:768px){
+
+  .header{
+    font-size:26px;
+    padding:14px;
+  }
+  
+	/* Top image */
+	.top-image{
+	  text-align:center;
+	}
+	.top-image img{
+	  width:100%;
+	  max-width:950px;
+	  height:auto;
+	  padding:20px;
+	  border-radius:30px;
+	}
+
+  .success-message{
+    padding:25px 18px;
+  }
+
+  .success-message h2{
+    font-size:18px;
+  }
+
+  .success-message h3{
+    font-size:18px;
+  }
+
+  .call-btn{
+    font-size:18px;
+    padding:12px 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="top-image">
+  <img src="smart tv.jpg" alt="Smart TV">
+</div>
+
+<div class="header">
+    <div STYLE="text-align:center;">CONGRATULATIONS!</div>
+</div>
+
+<div class="wrapper">
+    <div class="success-message">
+        <h2>1. CODE HAS BEEN ACCEPTED AND ITS READY TO BE ACTIVATED</h2>
+		<h3 style="font-size:22px; font-weight:700px; color:blue;">NEXT STEP: CALL BELOW NUMBER TO ACTIVATE</h3>
+		<a href="tel:+18556185446" class="call-btn">+1 (855) 618-5446</a>
+    </div>
+</div>
+
+</body>
+</html>
